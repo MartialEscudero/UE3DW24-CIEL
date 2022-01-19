@@ -7,7 +7,7 @@
   <p class="country">{{ meteo.city_info.country }}</p>
   <div class="main">
     <p>{{ meteo.current_condition.tmp }}<span>°C</span></p>
-    <p>Humidité : {{ meteo.current_condition.humidity }}%</p>
+    <p class="humidity">Humidité : {{ meteo.current_condition.humidity }}%</p>
     <div class="icon">
       <img src="{{ meteo.current_condition.icon_big}}" alt="">
       <p>{{ meteo.current_condition.condition }}</p>

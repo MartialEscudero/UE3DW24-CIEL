@@ -46,6 +46,11 @@
     font-size: 18px;
   }
 
+  & .humidity {
+    position: absolute;
+    margin-left: 130px;
+  }
+
   & .icon {
     display: flex;
     justify-content: flex-start;
